@@ -62,7 +62,7 @@ class webcamcimagrappa_widget extends WP_Widget {
 				<img src="http://www.meteocimagrappa.it/webcam2/cam.jpg?r=<?php echo $rnd ?>" data-link="http://www.cimagrappa.it/meteo/webcam3.php" />
 			</div>
 
-			<a href='http://www.cimagrappa.it/meteo/' target="_blank">Meto cima grappa</a>
+			<a href='http://www.cimagrappa.it/meteo/' target="_blank">Meteo Cima Grappa</a>
 			
 			<script>
 			
