@@ -74,7 +74,7 @@ class webcamcimagrappa_widget extends WP_Widget {
 					if ( $active.length == 0 ) $active = jQuery('div.webcam_cima_grappa_slideshow IMG:last');
 
 					var $next =  $active.next().length ? $active.next()	: jQuery('div.webcam_cima_grappa_slideshow IMG:first');
-
+				
 					$active.addClass('webcam_last_active');
 						
 					$next.css({opacity: 0.0})
@@ -85,7 +85,8 @@ class webcamcimagrappa_widget extends WP_Widget {
 
 				}
 				
-				jQuery(function() {
+				jQuery(function() {				
+					jQuery('div.webcam_cima_grappa_slideshow').height( jQuery('div.webcam_cima_grappa_slideshow').width() * 0.7 + 20 );				
 					setInterval( "webcamCimaGrappaSlideSwitch()", 5000 );
 				});
 				
